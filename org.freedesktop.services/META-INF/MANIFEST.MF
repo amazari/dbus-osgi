@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: org.freedesktop.services
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.freedesktop.dbus;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.freedesktop

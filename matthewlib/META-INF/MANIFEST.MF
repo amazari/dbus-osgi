@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Matthewlib
+Bundle-SymbolicName: matthewlib
+Bundle-Version: 1.0.0
+Export-Package: cx.ath.matthew.unix;version="1.0.0",
+ cx.ath.matthew.utils
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-NativeCode: native/libunix-java.so ;
+  osname=Linux;
+  processor=x86_64
